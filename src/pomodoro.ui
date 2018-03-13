@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>406</width>
-    <height>238</height>
+    <height>258</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
      <x>120</x>
      <y>20</y>
      <width>168</width>
-     <height>215</height>
+     <height>223</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -74,6 +74,85 @@
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QTimeEdit" name="time_pomodoro">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>120</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="displayFormat">
+    <string>mm</string>
+   </property>
+   <property name="time">
+    <time>
+     <hour>0</hour>
+     <minute>25</minute>
+     <second>0</second>
+    </time>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="time_long">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>180</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="displayFormat">
+    <string>mm</string>
+   </property>
+   <property name="time">
+    <time>
+     <hour>0</hour>
+     <minute>15</minute>
+     <second>0</second>
+    </time>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="time_short">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>150</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="displayFormat">
+    <string>mm</string>
+   </property>
+   <property name="time">
+    <time>
+     <hour>0</hour>
+     <minute>5</minute>
+     <second>0</second>
+    </time>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="breakInterval">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>150</y>
+     <width>52</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>999</number>
+   </property>
+   <property name="value">
+    <number>3</number>
+   </property>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>

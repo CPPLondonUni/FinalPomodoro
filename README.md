@@ -13,3 +13,4 @@ These will be described in the session and the README will be updated.
 
 Everything should build but some GUI elements need to be used and implemented.
 
+The BenSound WAV file is sampled from www.bensound.com

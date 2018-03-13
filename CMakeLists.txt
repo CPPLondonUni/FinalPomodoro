@@ -27,4 +27,5 @@ target_link_libraries(pomodoro Qt5::Widgets Qt5::Multimedia)
 set_target_properties(pomodoro PROPERTIES CXX_STANDARD 14 CXX_STANDARD_REQUIRED YES)
 
 FILE(COPY Annoying_Alarm_Clock.wav DESTINATION ${CMAKE_BINARY_DIR})
+FILE(COPY bensound-acousticbreeze.wav DESTINATION ${CMAKE_BINARY_DIR})
 

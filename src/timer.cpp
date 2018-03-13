@@ -30,6 +30,10 @@ void Timer::stop()
     qTimer.stop();
 }
 
+std::chrono::seconds Timer::GetTimeRemaining() const {
+    return this->remaining;
+}
+
 void Timer::onIntervalTimeout()
 {
     --remaining;

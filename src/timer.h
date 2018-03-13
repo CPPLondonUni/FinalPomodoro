@@ -24,6 +24,8 @@ public slots:
     /// Note that the `completed` signal will NOT be emitted.
     void stop();
 
+    std::chrono::seconds GetTimeRemaining() const;
+
 signals:
     /// This signal is emitted once per second when the timer is active.
     void tick(std::chrono::seconds timeRemaining);
